@@ -1,0 +1,158 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Some important CSS Start */
+
+/* Navbar CSS Start  */
+.hd-bg-top{
+    background: #5c69b3;
+}
+.col-md-6.header-top-2 ul li {
+    list-style: none;
+}
+.col-md-6.header-top-2 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.col-md-6.header-top-2 ul li a:hover{
+    color: #249db6;
+}
+.header-top-2 a i:hover{
+    color: #249db6!important;
+}
+
+
+
+.nav-item{
+    border-left: 1px solid gray !important;
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-nav li a{
+    transition: all 0.3s ease-in-out;
+}
+.navbar-nav li a:hover{
+    
+    background-color: #249db6;
+}
+.nav-top-font{
+    font-size: 14px;
+}
+
+
+/* Navbar CSS End  */
+
+/* Footer CSS Start  */
+
+.logo-article p{
+    color: white;
+}
+
+
+.footer-menu ul li{
+list-style: none;
+margin-bottom: 10px;
+}
+.footer-menu ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    
+}
+.footer-menu ul li a:hover{
+    color: red;
+    
+}
+.heading-text-color{
+    color: white;
+}
+
+/* Footer CSS End  */
+
+/* Form CSS Start  */
+.box-size input, .box-size select{
+    width: 100%;
+    padding: 6px 12px;
+}
+
+
+.font-size{
+    font-size: 18px;
+}
+
+
+.col-10 {
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.form-section-bg{
+    background: gainsboro;
+}
+/* Form CSS End */
+
+
+ /* ----notice part CSS start---- */
+
+ /* .nav-tabs .nav-link{
+    border:none !important ;
+    border-top-left-radius:none !important;
+    border-top-right-radius:none !important;
+
+ } */
+ /* .nav-tabs .nav-link.active {
+    color: none;
+    background-color: none !important; 
+    border-color: none !important;
+} */
+
+
+
+.event-photo{
+    position: relative;
+}
+.seminar-photo{
+ 
+    background :#249db6
+}
+
+
+
+
+.border-line img{
+    border-bottom:4px solid #249db6;
+}
+
+.address{
+    color: #249db6;
+    font-size: 13px;
+}
+.seminar-heading{
+    color: #000000;
+}
+
+.pen-icon-position h6{
+  transition: all 0.3s ease-in-out;
+  
+}
+.pen-icon-position h6:hover{
+   color: red;
+}
+
+/* .event-date-address {
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
+} */
+
+
+/* ----notice part CSS end---- */
