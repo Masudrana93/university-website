@@ -115,6 +115,10 @@ margin-bottom: 10px;
     border-color: none !important;
 } */
 
+.notic-box{
+    height: 315px;
+}
+
 
 
 .event-photo{
@@ -156,3 +160,29 @@ margin-bottom: 10px;
 
 
 /* ----notice part CSS end---- */
+
+
+/* Welcome Section CSS start  */
+
+.wc-msg {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    top: 100px;
+}
+
+.wc-msg-photo {
+    position: absolute;
+    top: -100px;
+}
+
+.wc-msg-photo  {
+    position: absolute;
+    top: -100px;
+}
+
+.maximun-height{
+    min-height: 500px ;
+}
+
+/* Welcome Section CSS end  */
