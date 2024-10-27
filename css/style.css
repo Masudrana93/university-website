@@ -174,7 +174,7 @@ margin-bottom: 10px;
     background-color: white;
     position: absolute;
     left: 22%;
-    bottom: -25%;
+    bottom: -30%;
     border-radius: 50px;
 }
 .heading-undrline h3::after{
@@ -185,7 +185,7 @@ margin-bottom: 10px;
     background-color: blue;
     position: absolute;
     left: 32%;
-    bottom: -25%;
+    bottom: -30%;
     
     border-radius: 50px;
 }
@@ -212,3 +212,25 @@ margin-bottom: 10px;
 }
 
 /* Welcome Section CSS end  */
+
+/* *** News & Events start*** */
+.date-box{
+    position: absolute;
+    top: -33px;
+    right: 0;
+}
+.card-photo img{
+    transition: all 0.5s ease-in-out;
+}
+.card-photo img:hover {
+    transform: scale(1.1);
+   
+}
+
+.card-photo  {
+    
+    overflow: hidden;
+}
+
+
+/* *** News & Events end*** */
