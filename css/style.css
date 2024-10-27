@@ -163,6 +163,32 @@ margin-bottom: 10px;
 
 
 /* Welcome Section CSS start  */
+.heading-undrline h3{
+    position: relative;
+}
+.heading-undrline h3::before{
+    content: "";
+    width: 30%;
+    height: 5px;
+    display: block;
+    background-color: white;
+    position: absolute;
+    left: 22%;
+    bottom: -25%;
+    border-radius: 50px;
+}
+.heading-undrline h3::after{
+    content: "";
+    width: 12%;
+    height: 4px;
+    display: block;
+    background-color: blue;
+    position: absolute;
+    left: 32%;
+    bottom: -25%;
+    
+    border-radius: 50px;
+}
 
 .wc-msg {
     position: relative;
