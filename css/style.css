@@ -172,26 +172,58 @@ margin-bottom: 10px;
     width: 30%;
     height: 5px;
     /* display: block; */
-    background-color: #249db6;
+    background-color: red;
     position: absolute;
     left: 50%;
     bottom: -35%;
     border-radius: 50px;
     right: 50%;
     transform: translate(-50%, -50%);
+    transition: all 0.5s;
 }
 .heading-undrline h3::after{
     content: "";
     width: 12%;
     height: 4px;
-    display: block;
-    background-color: white;
+    
+    background-color: green;
+    position: absolute;
+    left: 50%;
+    bottom: -33%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+}
+
+.heading-undrline:hover.heading-undrline h3::before{
+    content: "";
+    width: 12%;
+    height: 4px;
+  
+    background-color: red;
     position: absolute;
     left: 50%;
     bottom: -27%;
     border-radius: 50px;
     right: 50%;
     transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.heading-undrline:hover.heading-undrline h3::after{
+    content: "";
+    width: 30%;
+    height: 5px;
+    /* display: block; */
+    background-color: green;
+    position: absolute;
+    left: 50%;
+    bottom: -35%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 .wc-msg {
@@ -238,3 +270,30 @@ margin-bottom: 10px;
 
 
 /* *** News & Events end*** */
+
+/* *****facilities CSS start**** */
+
+
+.title-box{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.photo-title img{
+    transition: all 0.5s ease-in-out;
+}
+.photo-title img:hover {
+    transform: scale(1.1);
+   
+}
+
+.photo-title {
+    width: 260px;
+    height: 190px;
+    overflow: hidden;
+}
+
+
+
+/* *****facilities CSS end**** */
