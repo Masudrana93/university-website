@@ -165,29 +165,33 @@ margin-bottom: 10px;
 /* Welcome Section CSS start  */
 .heading-undrline h3{
     position: relative;
+    width: max-content;
 }
 .heading-undrline h3::before{
     content: "";
     width: 30%;
     height: 5px;
-    display: block;
-    background-color: white;
+    /* display: block; */
+    background-color: #249db6;
     position: absolute;
-    left: 22%;
-    bottom: -30%;
+    left: 50%;
+    bottom: -35%;
     border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
 }
 .heading-undrline h3::after{
     content: "";
     width: 12%;
     height: 4px;
     display: block;
-    background-color: blue;
+    background-color: white;
     position: absolute;
-    left: 32%;
-    bottom: -30%;
-    
+    left: 50%;
+    bottom: -27%;
     border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .wc-msg {
