@@ -162,7 +162,9 @@ margin-bottom: 10px;
 /* ----notice part CSS end---- */
 
 
-/* Welcome Section CSS start  */
+/* *****Welcome Section CSS start **** */
+
+/* underline left side CSS start  */
 .heading-undrline h3{
     position: relative;
     width: max-content;
@@ -172,9 +174,9 @@ margin-bottom: 10px;
     width: 30%;
     height: 5px;
     /* display: block; */
-    background-color: red;
+    background-color: blue;
     position: absolute;
-    left: 50%;
+    left: 15%;
     bottom: -35%;
     border-radius: 50px;
     right: 50%;
@@ -186,9 +188,9 @@ margin-bottom: 10px;
     width: 12%;
     height: 4px;
     
-    background-color: green;
+    background-color: white;
     position: absolute;
-    left: 50%;
+    left: 15%;
     bottom: -33%;
     border-radius: 50px;
     right: 50%;
@@ -201,9 +203,9 @@ margin-bottom: 10px;
     width: 12%;
     height: 4px;
   
-    background-color: red;
+    background-color: white;
     position: absolute;
-    left: 50%;
+    left: 15%;
     bottom: -27%;
     border-radius: 50px;
     right: 50%;
@@ -216,7 +218,74 @@ margin-bottom: 10px;
     width: 30%;
     height: 5px;
     /* display: block; */
-    background-color: green;
+    background-color: blue;
+    position: absolute;
+    left: 15%;
+    bottom: -35%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+/* underline left side CSS end  */
+
+/* underline center side CSS start  */
+
+.heading-undrline-center h3{
+    position: relative;
+    width: max-content;
+}
+.heading-undrline-center h3::before{
+    content: "";
+    width: 30%;
+    height: 5px;
+    /* display: block; */
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    bottom: -35%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+}
+.heading-undrline-center h3::after{
+    content: "";
+    width: 12%;
+    height: 4px;
+    
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: -33%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+}
+
+.heading-undrline-center:hover.heading-undrline-center h3::before{
+    content: "";
+    width: 12%;
+    height: 4px;
+  
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: -27%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.heading-undrline-center:hover.heading-undrline-center h3::after{
+    content: "";
+    width: 30%;
+    height: 5px;
+    /* display: block; */
+    background-color: blue;
     position: absolute;
     left: 50%;
     bottom: -35%;
@@ -225,6 +294,8 @@ margin-bottom: 10px;
     transform: translate(-50%, -50%);
     
 }
+
+/* underline center side CSS end */
 
 .wc-msg {
     position: relative;
