@@ -388,10 +388,15 @@ margin-bottom: 10px;
     background-size: cover;
     background-position: top right;
     background-attachment: fixed;
+    border-bottom: #249db6;
 }
 
 .why-chs-tle h4{
     background-color: #9f050599;
+
+}
+.number-title h4{
+    background-color:#070747f5;
 
 }
 /* ***Why-choose-us  CSS end*** */
