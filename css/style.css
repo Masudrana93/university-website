@@ -436,20 +436,17 @@ margin-bottom: 10px;
     position: absolute;
     left: 50%;
     top: 50%;
-    bottom: 50%;
+    
     transform: translate(-50%, -50%);
 }
-.detail-button a :hover{
+
+ .detail-button a:hover{
     background: #052c65 !important;
-    display: block;
-
-
+   
 }
-
 .detail-button a{
-    display: none;
+    transition: all 0.3s ease-in-out !important;
 }
-
 
 
 
