@@ -400,3 +400,52 @@ margin-bottom: 10px;
 
 }
 /* ***Why-choose-us  CSS end*** */
+
+/* ***Department & faculty CSS Start *** */
+
+.depart-photo-title img{
+    transition: all 0.5s ease-in-out;
+}
+.depart-photo-title img:hover {
+    transform: scale(1.1);
+   
+}
+
+.depart-photo-title {
+    /* width: 260px; */
+    height: 300px;
+    overflow: hidden;
+}
+
+.depart-title-box  a:hover {
+    color: blue !important;
+}
+
+.depart-title-box p a {
+    transition: all 0.3s ease-in-out !important;
+}
+
+.depart-title-box{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    
+}
+
+.detail-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+.detail-button a:hover{
+    background: #052c65 !important;
+
+
+}
+
+
+
+
+/* ***Department & faculty CSS End *** */
