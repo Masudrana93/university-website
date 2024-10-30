@@ -439,10 +439,15 @@ margin-bottom: 10px;
     bottom: 50%;
     transform: translate(-50%, -50%);
 }
-.detail-button a:hover{
+.detail-button a :hover{
     background: #052c65 !important;
+    display: block;
 
 
+}
+
+.detail-button a{
+    display: none;
 }
 
 
