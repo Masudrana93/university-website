@@ -451,3 +451,59 @@ margin-bottom: 10px;
 
 
 /* ***Department & faculty CSS End *** */
+
+/* Research card part start  */
+.card-img-top{
+    /* width: 300px !important ; */
+    height:200px !important ;
+}
+
+.margin-top{
+    margin-top: 200px;
+}
+
+.title-color{
+    color: #365fa0;
+    font-weight: 700;
+}
+.news-heading-border{
+    border-top: 4px solid #249db6;
+    border-radius: 0px !important;
+    
+
+}
+.news-photo-border{
+       overflow: hidden;
+       box-shadow: inset 0px 0px 8px 1px #dddddd;
+    
+}
+.news-photo-tag{
+  
+    border-radius: 0px 10px 0px 5px;
+   
+}
+
+.ria-medam:hover .news-photo-border img {
+    transform: scale(1.1);
+  
+}
+
+
+.bg-news{
+    background-color: #249db6;
+}
+
+.border-news{
+    border-bottom: 5px solid #249db6;
+}
+.news-photo-border img{
+    transition: .8s !important;
+}
+
+.card-body.card {
+    height: 145px;
+    box-shadow: inset 0px 0px 8px 1px #dddddd;
+}
+
+
+/* Research card part end  */
